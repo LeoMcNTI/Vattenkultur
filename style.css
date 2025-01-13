@@ -1,17 +1,17 @@
 .Background {
-  background-image: radial-gradient(
-    circle at top right,
-    hsl(203, 40%, 50%) 1%,
-    hsl(152, 40%, 50%) 50%,
-    hsl(103, 40%, 50%) 100%
-  );
+  background-image: radial-gradient(circle at top right,
+      hsl(203, 40%, 50%) 1%,
+      hsl(152, 40%, 50%) 50%,
+      hsl(103, 40%, 50%) 100%);
 }
+
 body {
   height: 100%;
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -46,6 +46,7 @@ body {
   background-color: black;
   color: white;
 }
+
 .topnav .icon {
   display: none;
 }
@@ -54,6 +55,7 @@ body {
   .topnav a:not(:first-child) {
     display: none;
   }
+
   .topnav a.icon {
     float: right;
     display: block;
@@ -64,20 +66,24 @@ body {
   .topnav.responsive {
     position: relative;
   }
+
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
   }
+
   .topnav.responsive a {
     float: none;
     display: block;
     text-align: left;
   }
 }
+
 h2 {
   text-align: center;
 }
+
 p {
   text-align: center;
 }
